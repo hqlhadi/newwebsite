@@ -1,0 +1,34 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	background: url(pexels-pixabay-2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Caveat', cursive;\
+	text-align: center;
+	font-size: 3rem;
+}
+
+.buffer {
+	height: 3rem;
+}
+
+.btn-success {
+	font-family: 'Caveat', cursive;
+	padding: 8px;
+	border-radius: 300px;
+}
+
+.btn-xl{
+	transition: transform 0.3s;
+}
+
+.btn-xl:hover {
+  transform: scale(1.5);
+}
